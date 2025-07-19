@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Etch A Sketch</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Etch A Sketch</h1>
+		</header>
+		<main>
+			<section id="canvas"></section>
+			<section id="controls">
+				<input class="input" type="number" id="number" max="100" min="1" value="16">
+				<div>
+					<button class="button" onclick="clearCanvas()">Clear</button>
+					<button class="button" onclick="start()">Change size</button>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
